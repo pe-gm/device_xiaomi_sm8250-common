@@ -200,6 +200,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     CameraGo
+    
+# Camera motor
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.motor@1.0.vendor
 
 # Configstore
 PRODUCT_PACKAGES += \
