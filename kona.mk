@@ -499,6 +499,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     hardware/qcom-caf/wlan \
 
+# Notch mask
+PRODUCT_PACKAGES += \
+    NotchBarKiller 
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
